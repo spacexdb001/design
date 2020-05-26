@@ -1,0 +1,99 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'DINPro-Regular';
+}
+
+@font-face {
+  font-family: 'DINPro-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("DINPro-Regular"), url("DINPro-Regular_13937.woff") format("woff");
+}
+
+:root {
+  --main-font-size: 5px;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section {
+  height: 1020px;
+  width: 480px;
+  border: 1px solid #ccc;
+}
+
+header {
+  padding: 5px;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .next-launch {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .next-launch .launch-latest {
+  font-size: 1.2em;
+}
+
+header .next-launch .launch-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: var(--main-font-size);
+  padding: 5px 0px;
+}
+
+header .next-launch .launch-info div {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.5em;
+  border-left: 1px solid #9FA1A2;
+}
+
+header .next-launch .launch-info p {
+  color: #9FA1A2;
+}
+
+header .next-launch .launch-info :last-child {
+  padding-right: 0px;
+}
+/*# sourceMappingURL=styles.css.map */
